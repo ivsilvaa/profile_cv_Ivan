@@ -13,7 +13,7 @@ formulario.addEventListener('submit', function (event) {
         return;
     }
 
-    const telefone = '5551999218525'; // SEM "+"
+    const telefone = '5551999218525';
     const texto = `Olá Ivan! Me chamo ${nome}. ${mensagem}`;
     const mensagemFormatada = encodeURIComponent(texto);
 

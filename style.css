@@ -1,8 +1,8 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html {
@@ -33,7 +33,7 @@ body {
     padding: 1.5rem;
 }
 
-.menu{
+.menu {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -82,11 +82,11 @@ body {
     height: 100%;
     z-index: -1;
     opacity: 0.5;
-    background: 
-    radial-gradient(circle at 10% 20%, var(--primaria) 0%, 
-    transparent 20%),
-    radial-gradient(circle at 90% 80%, var(--secundaria) 0%, 
-    transparent 20%);
+    background:
+        radial-gradient(circle at 10% 20%, var(--primaria) 0%,
+            transparent 20%),
+        radial-gradient(circle at 90% 80%, var(--secundaria) 0%,
+            transparent 20%);
 }
 
 .foto-perfil {
@@ -163,6 +163,9 @@ h1 {
     overflow: hidden;
     transition: all 0.5s ease;
     cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
 
 .projetos-card:hover {
