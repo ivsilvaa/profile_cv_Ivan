@@ -14,7 +14,7 @@ formulario.addEventListener('submit', function (event) {
     }
 
     const telefone = '5551999218525';
-    const texto = `Olá Ivan! Me chamo ${nome}. ${mensagem}`;
+    const texto = `Mensagem de ${nome}: \n${mensagem}`;
     const mensagemFormatada = encodeURIComponent(texto);
 
     const url = `https://wa.me/${telefone}?text=${mensagemFormatada}`;
